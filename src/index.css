@@ -1,0 +1,30 @@
+
+@font-face {
+  font-family: 'mistral';
+  font-style: normal;
+  font-weight: 400;
+  src: local('mistral'), url('../public/fonts/CopyofMistral2.ttf') format('truetype');
+
+}
+
+body {
+  margin: 0;
+  font-family: 'mistral',serif;
+  
+}
+
+.back{
+  background: url(../public/assets/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titretop{
+  margin-top: 150px;
+}
+
+.img_taille{
+  width: 150px;
+}
