@@ -8,7 +8,7 @@ const Meteo = () => {
     const {state} = useLocation();
     const {search} = state
     const [data, setData] = useState([])
-    console.log(setData)
+   
     
     useEffect(() => {
         axios.get("https://api.openweathermap.org/data/2.5/weather?q="+search+"&appid=3ad759fa739b2cae0f62d72cb3a23996")
